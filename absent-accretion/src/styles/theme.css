@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+nav {
+  background: #f4f4f4;
+  padding: 1rem;
+}
+
+nav a {
+  color: #333;
+}
