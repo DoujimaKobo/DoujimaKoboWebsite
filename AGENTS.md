@@ -9,6 +9,7 @@ The following instructions apply to all files in this repository.
 ```bash
 cd absent-accretion
 npm install
+npm test        # ensure unit tests pass
 npm run build
 ```
 
