@@ -5,3 +5,4 @@ This site now includes the following sections, each accessible from the navigati
 - **Illustrations**
 - **Dolls**
 - **CG**
+- **Blog**
