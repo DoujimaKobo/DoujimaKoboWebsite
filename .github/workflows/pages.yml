@@ -2,7 +2,7 @@
 name: Deploy to Pages
 
 on:
-  push:
+  pull_request_target:
     branches: ["main"]
   workflow_dispatch:
 
@@ -44,6 +44,7 @@ jobs:
 
   deploy:
     needs: build
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -54,3 +55,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+

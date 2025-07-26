@@ -22,14 +22,3 @@ npm install
 npm run dev       # start a local dev server
 npm run build     # build the production site
 ```
-
-## Testing
-
-Run the test suite from within `absent-accretion`:
-
-```bash
-npm test
-```
-
-All tests should pass before committing changes.
-
