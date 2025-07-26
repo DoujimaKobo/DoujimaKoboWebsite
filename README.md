@@ -10,6 +10,7 @@ The site currently has the following sections:
 - **Illustrations**
 - **Dolls**
 - **CG**
+- **Blog**
 
 ## Development
 
@@ -23,3 +24,4 @@ npm run dev       # start a local dev server
 npm run build     # build the production site
 npm run test      # run unit tests
 ```
+
