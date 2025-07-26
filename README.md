@@ -21,4 +21,5 @@ cd absent-accretion
 npm install
 npm run dev       # start a local dev server
 npm run build     # build the production site
+npm run test      # run unit tests
 ```
